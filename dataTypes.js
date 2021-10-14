@@ -15,19 +15,18 @@ let obj = {
     age : 22
 };
 
-console.log(number);
-console.log(name);
-console.log(arry);
-console.log(obj);
+console.log(number + " is " + typeof number);
+console.log(name + " is " + typeof name);
+console.log(arry + " is " + typeof arry);
+console.log(obj + " is " + typeof obj);
 
-console.log(typeof "Hi"); //string
 
 let arr = ["Rahaf",20, "Yazzid", 21];
 console.log(typeof arr); // object
 
 /* null variable  */
 let nullValue1 = null;
-let nullValue2 = undefined;
+
 
 /* undefined variable */
 let undefinedValue;
